@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
-df=pd.read_csv("/Users/user/Desktop/python/sales_str.csv")
+df=pd.read_csv("sales_str.csv")
 df.info()
 
 st.title("Ocean SuperCenter")
@@ -26,7 +26,7 @@ if nav == "Home":
 if nav == "Visualization":
 
     #load data
-    df=pd.read_csv("/Users/user/Desktop/python/sales_str.csv", encoding= 'unicode_escape')
+    df=pd.read_csv("sales_str.csv", encoding= 'unicode_escape')
 
 
     product_1 = list(df["Productline"].unique())
@@ -145,7 +145,7 @@ if nav == "Prediction":
 
 
     from sklearn.model_selection import train_test_split
-    df2=pd.read_csv("/Users/user/Desktop/python/rate_.csv")
+    df2=pd.read_csv("rate_.csv")
     df2['Age'] = df2['Age'].astype(int)
     df2['Rating'] = df2['Rating'].astype(int)
 
