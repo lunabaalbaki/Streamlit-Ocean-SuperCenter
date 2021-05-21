@@ -15,7 +15,7 @@ st.title("Ocean SuperCenter")
 nav= st.sidebar.radio("Navigation", ["Home", "Visualization", "Prediction"])
 if nav == "Home":
     st.write("In this streamlit app we're going to use the Ocean SuperCenter dataset to build a tool that visualizes features among datasets and to predict a certain feature (Rating) in this case." )
-    st.image("/Users/user/Desktop/python/nathalia-rosa-rWMIbqmOxrY-unsplash.jpg",height=10)
+    
 
     st.write("City Mart Supermarket is a Myanmar's leading supermarket, offering a wide range of international and premium products and fresh food.")
 
